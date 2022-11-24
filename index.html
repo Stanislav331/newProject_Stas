@@ -7,24 +7,40 @@
     <meta name="description" content="Этот проект был создан при помощи курса Владилена">
     <meta name="keywords" content="html, css, js, tags, courses, vladilen, newProject"   >
     <title>NewProject</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <div class="container">
+        <div class="discrMe">
+        <div class="img">
     <img src="iam.jpg" alt="iam" width="250">
-    <h1>Жилин Станислав</h1>    
-    <p>Я обучаюсь на 3 курсе <strong>СГУ направления Прикладная информатика</strong> </p>
-    <p>На данный момент <em>я живу в турции и активно развиваюсь</em> </p>
-    <p>я в соцсетях:</p>
-    <p> <a href="https://vk.com/szhilin1" target="_blank">Вконтакте</a>| <a href="https://t.me/StanislavTurkey" target="_blank">Телеграм</a></p>
-    <p>Мои хобби</p>
-    <ol>
+</div>
+<div class="discription">
+    <h1 class="myName">Жилин Станислав</h1>    
+    <p class="study">Я обучаюсь на 3 курсе <strong>СГУ направления Прикладная информатика</strong> </p>
+    <p class="dis1">На данный момент <em>я живу в <span class="turk">  Турции</span>  и активно развиваюсь</em> </p>
+</div>
+</div>
+<hr>
+    <div class="blocks">
+        <div class="block1">
+    <p class="infoAbout">я в соцсетях:</p>
+    <p> <a class="links" href="https://vk.com/szhilin1" target="_blank">Вконтакте</a>| <a class="links" href="https://t.me/StanislavTurkey" target="_blank">Телеграм</a></p>
+</div>
+<div class="block2">
+    <p class="infoAbout">Мои хобби</p>
+    <ol class="hobby">
         <li>Утренняя пробежка</li>
         <li>Просмотр сериалов</li>
         <li>Чтение книг</li>
     </ol>
-
-    <table>
+</div>
+<div class="block3">
+    <p class="infoAbout">Опыт работы</p>
+    <table class="work">
 <thead>
-<tr>
+<tr class="named">
     <th>Название работы</th>
     <th>Должность</th>
     <th>Период работы</th>
@@ -32,12 +48,12 @@
 </thead>
 
 <tbody>
-    <tr>
+    <tr class="soho">
         <td>ресторан soho</td>
         <td>официант</td>
         <td>2020-2021</td>
     </tr>
-<tr>
+<tr class="itRazrab">
     <td>фриланс</td>
     <td>верстальщик</td>
     <td>2021-2022</td>
@@ -46,27 +62,31 @@
 </tbody>
 
     </table>
+    </div>
+</div>
+
+    <hr>
 
     <form>
 <div>
 <label for="text">Ваше имя:</label>
-<input type="text" id="text" placeholder="Введите имя">
+<input type="text" id="text" placeholder="Введите имя" >
 </div>
 <div>
     <label for="email">Ваш email:</label>
     <input type="email" id="email" placeholder="Введите email">
     
     </div>
-    <div>
+    <div >
         <label for="area">Ваше сообщение:</label><br>
         
-        <textarea id="area" cols="40" rows="5" placeholder="Введите сообщение..."></textarea>
+        <textarea id="area" cols="40" rows="5" placeholder="Введите сообщение..." ></textarea>
         
         </div>
     </div>
     
-    <div>
-        <button type="submit">Отправить!</button>
+    <div class="but">
+        <button class="btn"  type="submit">Отправить!</button>
         
         </div>
 
@@ -78,6 +98,6 @@
 
 
 
-
+</div>
 </body>
 </html>

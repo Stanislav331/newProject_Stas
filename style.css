@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+
+body{
+    background-color: rgb(182, 124, 124);
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.myName{
+text-decoration: underline;
+margin: auto;
+width: max-content;
+
+}
+.study{
+    color: blue;
+}
+.turk{
+    color: chartreuse;
+}
+.hobby{
+    background-color: aqua;
+    color: darkmagenta;
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px 40px;
+}
+.hobby li:hover{
+    background-color: burlywood;
+    cursor: pointer;
+
+}
+.soho{
+    background-color: crimson;
+ 
+}
+.soho td{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.itRazrab{
+    background-color: coral;
+}
+.itRazrab td{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.work{
+    color: chartreuse;
+    background-color: aqua;
+    padding: 0px 15px;
+    border-radius: 10px;
+}
+.work tr:nth-child(2){
+    background-color: darkred;
+}
+
+.named{
+    color: brown;
+}
+
+.infoAbout{
+    background-color: salmon;
+    width: max-content;
+    border-radius: 5px;
+    padding: 3px;
+} 
+.discrMe{
+    display: flex;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.img{
+    width: max-content;
+    margin: auto;
+    display: inline;
+}
+.blocks{
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+    width: max-content;
+    margin: auto;
+}
+.discription{
+    width: max-content;
+    margin: auto;
+}
+img{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+
+.dis1{
+
+    margin: auto;
+    width: max-content;
+
+
+}
+form div{
+    width: max-content;
+    margin: auto;
+}
+.but{
+    width: max-content;
+margin: auto;
+}
+.btn{
+    background-color: aqua;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.btn:hover{
+    padding: 10px;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.links{
+    text-decoration: none;
+    padding: 0px 5px;
+    color: goldenrod;
+}
+.links:hover{
+    color: darkorange;
+    font-size: 23px;
+}
+.links:visited{
+color: beige;
+}
+
+.links:active{
+    color: greenyellow;
+    transition: all 1.2s;
+    font-size: 15px;
+    }
+    #text{
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 3px solid darkviolet;
+        background-color: rgb(180, 110, 120);
+        color: black;
+    }
+    #email{
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 3px solid darkviolet;
+        color: black;
+        background-color: rgb(180, 110, 120);
+    }
+    textarea{
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 3px solid darkviolet;
+        color: black;
+        background-color: rgb(180, 110, 120);
+    }
+    @media(max-width: 650px) {
+        img {
+            box-shadow: 4px 4px 14px rgb(0 0 0 / 25%);
+            border-radius: 20px;
+            width: 200px;
+            margin: auto;
+            display: block;
+        }
+        .discrMe {
+            display: block;
+        }
+        .blocks {
+        font-size: 15px;
+        }
+    }
